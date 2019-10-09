@@ -11,9 +11,9 @@ title                    : "Spinnaker"
 title_separator          : "-"
 name                     : "Spinnaker"
 description              : "Global Continuous Delivery"
-url                      : https://www.spinnaker.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : spinnaker/spinnaker.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+url                      : https://deesprinter.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+# baseurl                  : spinnaker.github.io
+# repository               : deesprinter/spinnaker.github.io  # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 breadcrumbs              : true #, false (default)
 words_per_minute         : 200
@@ -30,7 +30,7 @@ comments:
     colorscheme          : # "light" (default), "dark"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "master"
+  branch                 : "gh-pages"
   commitMessage          : "New comment."
   filename               : comment-{@timestamp}
   format                 : "yml"
